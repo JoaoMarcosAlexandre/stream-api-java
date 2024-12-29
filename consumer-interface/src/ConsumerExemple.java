@@ -7,6 +7,7 @@ public class ConsumerExemple {
         List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 
         //Usando o CONSUMER com expressão LAMBDA para imprimir numeros pares
+        @SuppressWarnings("unused")
         Consumer<Integer> imprimirNumeroPar = numero -> {
          if (numero %2 == 0){
             System.out.println(numero);

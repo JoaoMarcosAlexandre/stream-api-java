@@ -4,6 +4,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@SuppressWarnings("unused")
 public class FunctionExemple {
     public static void main(String[] args) {
         //Criando lista de numeros inteiros
